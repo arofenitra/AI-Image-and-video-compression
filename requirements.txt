@@ -1,0 +1,16 @@
+compressai
+kornia
+piq
+torchaudio
+tensorflow
+tensorflow-docs
+scikit-image
+scikit-learn
+tqdm
+pillow
+opencv-python
+numpy
+scipy
+pandas
+seaborn
+matplotlib
