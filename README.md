@@ -8,6 +8,12 @@ The project will compare the performance of AI-based compression methods with tr
 
 Traditional compression methods (e.g., JPEG, ffmpeg) often sacrifice subtle features important for classification. This project compares conventional methods with state-of-the-art NIC and NVC models, focusing on their impact on downstream tasks like medical image diagnosis and license plate recognition.
 
+Traditional compression methods (e.g., JPEG) often sacrifice subtle features important for classification. This project compares conventional methods with state-of-the-art NIC models, focusing on their impact on downstream tasks like medical image diagnosis and license plate recognition.
+
+**Input image text detection**            |  **Compressed Image text detection**
+:-------------------------:|:-------------------------:
+![](https://github.com/ay-tishka/Impact-of-NIC-on-image-classification/blob/main/experiments/license%20analysis/uncomp_better_1.png)   |  ![](https://github.com/ay-tishka/Impact-of-NIC-on-image-classification/blob/main/experiments/license%20analysis/comp_worse_1.png)
+
 
 ## Key Contributions
 - Compared Cheng2020-anchor and Cheng2020-attn NIC models against JPEG using PSNR, SSIM, VIF, and BPP.
