@@ -8,6 +8,12 @@ This comprehensive research project investigates how AI-based image and video co
 :-------------------------:|:-------------------------:
 ![](https://github.com/ay-tishka/Impact-of-NIC-on-image-classification/blob/main/experiments/license%20analysis/uncomp_better_1.png)   |  ![](https://github.com/ay-tishka/Impact-of-NIC-on-image-classification/blob/main/experiments/license%20analysis/comp_worse_1.png)
 
+Traditional compression methods (e.g., JPEG) often sacrifice subtle features important for classification. This project compares conventional methods with state-of-the-art NIC models, focusing on their impact on downstream tasks like medical image diagnosis and license plate recognition.
+
+**Input image text detection**            |  **Compressed Image text detection**
+:-------------------------:|:-------------------------:
+![](https://github.com/ay-tishka/Impact-of-NIC-on-image-classification/blob/main/experiments/license%20analysis/uncomp_better_1.png)   |  ![](https://github.com/ay-tishka/Impact-of-NIC-on-image-classification/blob/main/experiments/license%20analysis/comp_worse_1.png)
+
 
 ## 🎯 Key Research Questions
 
@@ -185,6 +191,7 @@ python get_datasets.py
     author={Agustsson, Eirikur and Minnen, David and Johnston, Nick and Balle, Johannes and Hwang, Sung Jin and Toderici, George},
     booktitle={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     year={2020},
+<<<<<<< HEAD
     pages={8500--8509}
 }
 ```
@@ -196,3 +203,9 @@ We welcome contributions! Please see our contribution guidelines and feel free t
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+        month= jun,
+         year= {2020},
+         pages= {8500--8509},
+}```
+>>>>>>> 30bb206be61addf6c8d23614803d29b53bb53765
